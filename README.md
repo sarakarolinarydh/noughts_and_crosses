@@ -29,7 +29,7 @@ https://github.com/pololu/pololu-led-strip-avr
 
 1. Flash the microcontroller using i.e. AVRDUDE.
    
-   `avrdude -p atmega88 -c usbasp -U flash:w:main.hex:i -F -P usb`
+   `avrdude -p attiny84 -c usbasp -U flash:w:main.hex:i -F -P usb`
 
 ## Authors
 Sara Rydh
